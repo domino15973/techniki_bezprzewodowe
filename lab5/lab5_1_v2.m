@@ -39,7 +39,7 @@ for i = 1:numberOfPeople
          [sizeX, sizeY];
         ];
 
-    b = [
+    b = 1/2 *[
          d1_v2^2 - d2_v2^2 + sizeX^2 + 0^2;    
          d1_v2^2 - d3_v2^2 + 0^2     + sizeY^2;
          d1_v2^2 - d4_v2^2 + sizeX^2 + sizeY^2;
